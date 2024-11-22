@@ -1,0 +1,2 @@
+from .manege_placa_master import ManagerPlacaMaster
+from .manage_placa_slave import ManagerPlacaSlave
