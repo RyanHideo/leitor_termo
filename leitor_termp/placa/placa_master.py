@@ -17,8 +17,7 @@ class PlacaMaster(PlacaAbstract,ManagerPlacaMaster):
     
     def read_temp(self):
                                 
-        for index , chave in enumerate(self.chave_cordoes):
-       
+        for index , chave in enumerate(self.chave_cordoe):
             c_int           =       int(self.lista_canal[index])
             s_int           =       int(self.lista_sensor[index])
             self.mp.set_canal(c_int)
